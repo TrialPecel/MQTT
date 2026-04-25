@@ -1,0 +1,15 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ujang       3617  100  0.1  13624  4680 pts/0    R+   08:20   0:00 ps aux --sort=-%cpu
+ujang       1851 14.5  6.8 5059736 271256 ?      Sl   08:04   2:22 cinnamon --replace
+root        1261  7.2  2.7 375236 110248 tty7    Ssl+ 08:04   1:12 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+ujang       2161  1.4  1.1 691344 44188 ?        Ssl  08:04   0:13 /usr/libexec/gnome-terminal-server
+ujang       1552  1.2  0.0 218172  3240 ?        Sl   08:04   0:12 /usr/bin/VBoxClient --draganddrop
+ujang       2294  1.2  1.5 495744 62264 ?        Sl   08:05   0:11 mintreport-tray
+ujang       1591  0.8  0.2 388884 11388 ?        Ssl  08:04   0:08 /usr/bin/ibus-daemon --daemonize --xim
+ujang       1544  0.6  0.0 217656  3432 ?        Sl   08:04   0:06 /usr/bin/VBoxClient --seamless
+ujang       1619  0.6  0.7 380912 30908 ?        Sl   08:04   0:06 /usr/libexec/ibus-extension-gtk3
+root           1  0.5  0.3  22556 13728 ?        Ss   08:03   0:05 /sbin/init splash
+root        1137  0.5  0.0 355652  2760 ?        Sl   08:04   0:05 /usr/bin/VBoxDRMClient
+root         711  0.4  0.3 258552 14532 ?        Ssl  08:04   0:04 /usr/bin/touchegg --daemon
+root          18  0.4  0.0      0     0 ?        I    08:03   0:04 [rcu_preempt]
+root          39  0.4  0.0      0     0 ?        S    08:03   0:04 [ksoftirqd/3]
